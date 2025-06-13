@@ -1,0 +1,36 @@
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-12T222745.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-12T222620.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-12T222616.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-12T222510.200.json
+
+###
+
