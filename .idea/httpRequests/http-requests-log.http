@@ -1,3 +1,136 @@
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson",
+  "email": "",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-14T214744.400.json
+
+###
+
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson",
+  "email": "",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-14T213819.400.json
+
+###
+
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson",
+  "email": "",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-14T213814.400.json
+
+###
+
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson",
+  "email": "test@example.com",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-13T232810.200.json
+
+###
+
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson",
+  "email": "test@example.com",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-13T232033.500.json
+
+###
+
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson",
+  "email": "test@example.com",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-12T230156.500.json
+
+###
+
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson",
+  "email": "test@example.com",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-12T230051.500.json
+
+###
+
 GET http://localhost:8080/patients
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
