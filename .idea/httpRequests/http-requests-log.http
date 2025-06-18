@@ -1,3 +1,79 @@
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "David with Billing",
+  "email": "DavidBilling@example.com",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-17T230511.200.json
+
+###
+
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson with Billing",
+  "email": "testBilling@example.com",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-17T230448.400.json
+
+###
+
+GRPC localhost:9090/BillingService/CreateBillingAccountPOST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson with Billing",
+  "email": "testBilling@example.com",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-17T230442.400.json
+
+###
+
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jackson with Billing",
+  "email": "testBilling@example.com",
+  "address": "123 main st",
+  "dateOfBirth": "1996-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+<> 2025-06-17T223429.200.json
+
+###
+
 GRPC localhost:9090/BillingService/CreateBillingAccountGRPC localhost:9090/BillingService/CreateBillingAccountGET http://localhost:8080/patients
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip

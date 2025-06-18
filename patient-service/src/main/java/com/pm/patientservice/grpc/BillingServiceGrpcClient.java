@@ -15,20 +15,25 @@ import org.springframework.stereotype.Service;
 public class BillingServiceGrpcClient {
     private final BillingServiceGrpc.BillingServiceBlockingStub stub;
 
-    public BillingServiceGrpcClient(@Value("${billing.service.address.localhost}") String serverAddress, @Value("${billing.service.grpc.port:9090}") int serverPort) {
+    public BillingServiceGrpcClient(
+            @Value("${BILLING_SERVICE_ADDRESS:localhost}") String serverAddress,
+            @Value("${BILLING_SERVICE_GRPC_PORT:9090}") int serverPort
+    ) {
         log.info("Connecting to Billing Service GRPC service at {}:{}", serverAddress, serverPort);
-
-        ManagedChannel channel = ManagedChannelBuilder.forAddress(serverAddress, serverPort).usePlaintext().build();
+        ManagedChannel channel = ManagedChannelBuilder.forAddress(serverAddress, serverPort)
+                .usePlaintext()
+                .build();
         stub = BillingServiceGrpc.newBlockingStub(channel);
     }
 
     public BillingResponse createBillingAccount(String patientId, String name, String email){
-        BillingRequest request = BillingRequest.newBuilder().setPatientId(patientId)
-                .setName(name).setEmail(email).build();
-
+        BillingRequest request = BillingRequest.newBuilder()
+                .setPatientId(patientId)
+                .setName(name)
+                .setEmail(email)
+                .build();
         BillingResponse response = stub.createBillingAccount(request);
         log.info("Received response from billing service via GRPC: {}", response);
         return response;
     }
-
 }
