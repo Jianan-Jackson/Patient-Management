@@ -1,4 +1,4 @@
-GET http://localhost:8080/patients
+GRPC localhost:9090/BillingService/CreateBillingAccountGET http://localhost:8080/patients
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
