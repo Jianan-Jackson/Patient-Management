@@ -1,4 +1,4 @@
 ### GET request to example server
-GET http://localhost:8086/validate
+GET http://localhost:8088/auth/validate
 Authorization: Bearer {{token}}
 ###

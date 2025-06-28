@@ -1,5 +1,5 @@
 ### GET request to all patients
 
 GET http://localhost:8088/api/patients
-
+Authorization: Bearer {{token}}
 ###
