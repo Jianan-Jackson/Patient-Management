@@ -1,3 +1,45 @@
+GET http://localhost:8086/validate
+Authorization: Bearer dasdasdasdasd
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8086/validate
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc1MTA4NzQyOSwiZXhwIjoxNzUxMDkxMDI5fQ.P-yLIE1h1lRu74VUH3AIwDkePKnul_lS4gJpMMsUMak
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8086
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc1MTA4NzQyOSwiZXhwIjoxNzUxMDkxMDI5fQ.P-yLIE1h1lRu74VUH3AIwDkePKnul_lS4gJpMMsUMak
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-27T221032.404.json
+
+###
+
+POST http://localhost:8086/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2025-06-27T221029.200.json
+
+###
+
 POST http://localhost:8086/login
 Content-Type: application/json
 Content-Length: 63
